@@ -48,7 +48,7 @@ minutes. If you choose a five-digit passcode, the time increases to about 7.5 ho
 and so on. So try to choose passcodes that are at least 6 digits long, and ideally, don’t reuse passcodes, so that a 
 single compromise doesn’t expose all your chests.
 
-# Supported versions and launchers
+## Supported versions and launchers
 - **This program was built specifically for NeoForge version 21.8.53 (Minecraft version 1.21.8) and SecurityCraft version
 1.10.1, but that doesn't mean that it won't work for your game version. Attaching itself to the game is achieved by
 searching for specific class names and functions, which may - or may not - have had different names in the past and are 
