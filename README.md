@@ -2,6 +2,9 @@
 > **Kuhfuss** is a Java agent that can attach itself to a Minecraft instance and brute-force password-protected chests 
 from the [SecurityCraft mod](https://www.curseforge.com/minecraft/mc-mods/security-craft).
 
+## Demo
+![Video demonstration of the bruteforcer](https://github.com/user-attachments/assets/44b5c696-a07d-4ec1-9f24-321f64f55409)
+
 ## Features
  - 🔐 Cracks codes automatically in the background without any annoying GUIs blocking your vision. No need to stop what
 you're doing or even stay near the target chest; brute-forcing works through walls and at any range.
@@ -69,21 +72,22 @@ request with the edited file to improve overall compatibility.
 Before you use Kuhfuss, you should read the sections on limitations and supported versions.
 1.Download the latest jar-file from the releases section
 2.To attach the program to your game, choose your preferred method from the two options below
-  - **Attaching the agent to a running Minecraft instance:** 
-    > To attach the agent to a game that's already running, you'll need a Java JDK, since the Attach API isn't
+- **Attaching the agent to a running Minecraft instance:**
+  > To attach the agent to a game that's already running, you'll need a Java JDK, since the Attach API isn't
   available in the standard JRE.
 
-    Simply run the JAR file, and the rest will be handled for you. Keep in mind that newer versions of Java may 
-  disallow the dynamic loading of agents unless the `-XX:+EnableDynamicAgentLoading` JVM startup parameter is explicitly 
+  Simply run the JAR file, and the rest will be handled for you. Keep in mind that newer versions of Java may
+  disallow the dynamic loading of agents unless the `-XX:+EnableDynamicAgentLoading` JVM startup parameter is explicitly
   set. If you run into any problems, fall back to static attaching.
-  - **Attaching the agent statically**:
+- **Attaching the agent statically**:
 
-    Depending on which launcher you use to start the game, there may be a built-in feature for attaching agents. 
-    If your preferred launcher doesn't have this feature, you can manually attach the agent by adding the
+  Depending on which launcher you use to start the game, there may be a built-in feature for attaching agents.
+  In the Prism launcher, for example, you'll find this feature as shown in the screenshot.
+  ![Right-click on the instance you want to attach to and select edit. Then, under versions you'll find an option to "Add Agents" ](https://github.com/user-attachments/assets/e15b3fca-2706-4ee8-83f1-a72812b263ce)
+  If your preferred launcher doesn't have this feature, you can manually attach the agent by adding the
   startup parameter `-javaagent:{Path_to_your_jar}` to your launcher.
 3. If the program has been successfully attached, you should see text above the hotbar indicating the program's current
-status. Type `.help` in the chat to see all available commands, or watch the video demonstration above. Any messages 
-that begin with a period will be blocked and will not be visible to other players.
-
+   status. Type `.help` in the chat to see all available commands, or watch the video demonstration above. Any messages
+   that begin with a period will be blocked and will not be visible to other players.
 ## Credits
 This project uses [Javassist](https://github.com/jboss-javassist/javassist) to inject custom code into the game.
