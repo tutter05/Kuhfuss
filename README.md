@@ -3,7 +3,7 @@
 from the [SecurityCraft mod](https://www.curseforge.com/minecraft/mc-mods/security-craft).
 
 ## Demo
-![Video demonstration of the bruteforcer](https://github.com/user-attachments/assets/44b5c696-a07d-4ec1-9f24-321f64f55409)
+https://github.com/user-attachments/assets/44b5c696-a07d-4ec1-9f24-321f64f55409
 
 ## Features
  - 🔐 Cracks codes automatically in the background without any annoying GUIs blocking your vision. No need to stop what
